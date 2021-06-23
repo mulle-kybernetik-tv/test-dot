@@ -1,1 +1,3 @@
 # test-dot
+
+![](overview.dot)
