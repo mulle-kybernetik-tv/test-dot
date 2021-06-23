@@ -1,0 +1,11 @@
+digraph sourcetree
+{
+   node [ shape="box"; style="filled" ]
+   "MulleObjCPlistFoundation" -> "MulleObjCStandardFoundation"
+   "MulleObjCStandardFoundation" -> "MulleObjCContainerFoundation"
+   "MulleObjCStandardFoundation" -> "MulleObjCValueFoundation"
+   "MulleObjCValueFoundation" -> "mulle-buffer"
+   "MulleObjCValueFoundation" -> "MulleObjC"
+   "MulleObjCValueFoundation" -> "mulle-sprintf"
+   "MulleObjCValueFoundation" -> "mulle-utf"
+}
